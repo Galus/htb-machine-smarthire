@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Binary artifacts
+*.pkl
+*.db
+mlflow.db
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Nested git repos (removed — kept as plain source)
+exploit/**/.git/
